@@ -6,7 +6,7 @@ This repository contains the implementation of methods from the paper "A Computa
 
 - `impact_project.py`: The main script that processes the STRING interaction data, identifies hub genes, and generates various plots.
 - `hub_genes_output.csv`: The output file containing the identified hub genes with their degree and betweenness centrality.
-- `9606.protein.links.v11.5.txt.gz`: STRING interaction data for Homo sapiens (to be downloaded separately).
+- `9606.protein.links.v12.0.txt.gz`: STRING interaction data for Homo sapiens (to be downloaded separately).
 - `README.md`: This readme file.
 - Other scripts and files related to the project.
 
@@ -15,7 +15,7 @@ This repository contains the implementation of methods from the paper "A Computa
 1. **Clone the Repository**
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/ravitheja990/cs238
    cd cs238_paper_implementations
 
     Install Dependencies
@@ -32,7 +32,7 @@ Download the STRING interaction file for Homo sapiens and place it in the reposi
 
 bash
 
-    wget https://stringdb-static.org/download/protein.links.v11.5/9606.protein.links.v11.5.txt.gz
+    wget https://stringdb-downloads.org/download/protein.links.v12.0/9606.protein.links.v12.0.txt.gz
 
 Usage
 
@@ -60,12 +60,12 @@ Acknowledgements
 
 Contact
 
-For any questions or issues, please contact [Your Name] at [your.email@example.com].
+For any questions or issues, please contact Ravi Theja at rtang069@ucr.edu.
 
 markdown
 
 
-Replace `<repository_url>` with the URL of your repository, and `[Your Name]` and `[your.email@example.com]` with your actual name and email address.
+Replace `https://github.com/ravitheja990/cs238` with the URL of your repository, and `Ravi Theja` and `rtang069@ucr.edu` with your actual name and email address.
 
 ### Steps to Use
 
